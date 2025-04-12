@@ -2,11 +2,12 @@ Kode ini mengalikan matriks A dan B dengan ukuran 5×5.
 
 Menggunakan 3 Nested List:
 
-Loop i: untuk baris matriks A.
-Loop j: untuk Kolom matriks B.
-Loop k: untuk menjumlahkan hasil kali elemen A dan B.
+* Loop i: untuk baris matriks A.
+* Loop j: untuk Kolom matriks B.
+* Loop k: untuk menjumlahkan hasil kali elemen A dan B.
 
-append() digunakan untuk menyusun list demi list ke dalam matriks hasil.
+>append()
+/digunakan untuk menyusun list demi list ke dalam matriks hasil.
 
 deskripsi beberapa function di code:
 
