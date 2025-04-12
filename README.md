@@ -10,10 +10,10 @@ append() digunakan untuk menyusun list demi list ke dalam matriks hasil.
 
 deskripsi beberapa function di code:
 
-* hasil = []
+* >hasil = []
   (Inisialisasi list kosong bernama hasil yang akan menampung matriks hasil akhir dari perkalian A × B)
 
-* for i in range(5):
+* >for i in range(5):
    loop pertama, berjalan sebanyak 5 kali (karena A punya 5 baris). Variabel i menunjukkan indeks baris saat ini dari matriks A.
 
 * baris = []
