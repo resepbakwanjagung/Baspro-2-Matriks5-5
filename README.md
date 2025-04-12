@@ -7,7 +7,7 @@ Menggunakan 3 Nested List:
 * Loop k: untuk menjumlahkan hasil kali elemen A dan B.
 
 >append()
-/digunakan untuk menyusun list demi list ke dalam matriks hasil.
+- digunakan untuk menyusun list demi list ke dalam matriks hasil.
 
 deskripsi beberapa function di code:
 
