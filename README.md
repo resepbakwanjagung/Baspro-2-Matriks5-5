@@ -45,4 +45,10 @@ deskripsi beberapa function di code:
     print(row)
   Loop terakhir, mencetak setiap baris dari matriks hasil ke layar agar terlihat seperti bentuk matriks.
 
+List A : 
+
+List B :
+
+Output:
+
   
