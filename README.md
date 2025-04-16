@@ -30,10 +30,10 @@ deskripsi beberapa function di code:
             total += A[i][k] * B[k][j]
   Loop ketiga:
 
-#k adalah indeks untuk mengakses elemen yang akan dikalikan dari baris A dan kolom B.
-#A[i][k] adalah elemen di baris i, kolom k dari A.
-#B[k][j] adalah elemen di baris k, kolom j dari B.
-#Keduanya dikalikan dan dijumlahkan ke total.
+<br>k adalah indeks untuk mengakses elemen yang akan dikalikan dari baris A dan kolom B.
+<br>A[i][k] adalah elemen di baris i, kolom k dari A.
+<br>B[k][j] adalah elemen di baris k, kolom j dari B.
+<br>Keduanya dikalikan dan dijumlahkan ke total.
 
 * >baris.append(total)
   Setelah satu elemen total selesai dihitung, tambahkan ke list baris.
@@ -46,28 +46,27 @@ deskripsi beberapa function di code:
   Loop terakhir, mencetak setiap baris dari matriks hasil ke layar agar terlihat seperti bentuk matriks.
 
 List A : 
-[
-    [1, 2, 3, 4, 5],
-    [6, 7, 8, 9, 10],
-    [11, 12, 13, 14, 15],
-    [16, 17, 18, 19, 20],
-    [21, 22, 23, 24, 25]
-]
+
+<br>[1, 2, 3, 4, 5],
+<br>[6, 7, 8, 9, 10],
+<br>[11, 12, 13, 14, 15],
+<br>[16, 17, 18, 19, 20],
+<br>[21, 22, 23, 24, 25]
 
 List B :
-[
-    [25, 24, 23, 22, 21],
-    [20, 19, 18, 17, 16],
-    [15, 14, 13, 12, 11],
-    [10, 9, 8, 7, 6],
-    [5, 4, 3, 2, 1]
-]
+
+<br>[25, 24, 23, 22, 21],
+<br>[20, 19, 18, 17, 16],
+<br>[15, 14, 13, 12, 11],
+<br>[10, 9, 8, 7, 6],
+<br>[5, 4, 3, 2, 1]
+
 
 Output:
-[
-[175, 160, 145, 130, 115]
-[550, 510, 470, 430, 390]
-[925, 860, 795, 730, 665]
-[1300, 1210, 1120, 1030, 940]
-[1675, 1560, 1445, 1330, 1215]
-]
+
+<br>[175, 160, 145, 130, 115]
+<br>[550, 510, 470, 430, 390]
+<br>[925, 860, 795, 730, 665]
+<br>[1300, 1210, 1120, 1030, 940]
+<br>[1675, 1560, 1445, 1330, 1215]
+
