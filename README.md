@@ -7,27 +7,34 @@ Menggunakan 3 Nested List:
 * Loop k: untuk menjumlahkan hasil kali elemen A dan B.
 
 >append()
+
 <br>digunakan untuk menyusun list demi list ke dalam matriks hasil.
 
 deskripsi beberapa function di code:
 
 * >hasil = []
+  
   <br>(Inisialisasi list kosong bernama hasil yang akan menampung matriks hasil akhir dari perkalian A × B)
 
 * >for i in range(5):
+  
    <br>loop pertama, berjalan sebanyak 5 kali (karena A punya 5 baris). Variabel i menunjukkan indeks baris saat ini dari matriks A.
 
 * >baris = []
+  
   <br>Di dalam loop baris, buat list kosong baris untuk menyimpan nilai-nilai dalam satu baris hasil.
 
 * >for j in range(5):
+  
   <br>Loop kedua, berjalan 5 kali juga, karena code akan menghitung nilai di setiap kolom B untuk baris A ke-i. Ini menghasilkan satu elemen dari matriks hasil per iterasi.
 
 *  >total = 0
+   
   <br>variabel total untuk menyimpan hasil penjumlahan dari perkalian elemen A dan B untuk posisi [i][j].
 
 *  >for k in range(5):
             <br>total += A[i][k] * B[k][j]
+   
   <br>Loop ketiga:
 
 <br>k adalah indeks untuk mengakses elemen yang akan dikalikan dari baris A dan kolom B.
@@ -36,13 +43,16 @@ deskripsi beberapa function di code:
 <br>Keduanya dikalikan dan dijumlahkan ke total.
 
 * >baris.append(total)
+  
   <br>Setelah satu elemen total selesai dihitung, tambahkan ke list baris.
 
 * >hasil.append(baris)
+  
   <br>Setelah satu baris lengkap (5 kolom), tambahkan ke list hasil → menjadi baris baru di matriks hasil akhir.
 
 * >for row in hasil:
     <br>>print(row)
+  
   <br>Loop terakhir, mencetak setiap baris dari matriks hasil ke layar agar terlihat seperti bentuk matriks.
 
 List A : 
